@@ -1,0 +1,39 @@
+body{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 255, 255);
+}
+
+#image{
+  width: 600px;
+}
+
+#date{
+  font-weight:bold;
+}
+
+#explanation {
+  background-color:white;
+  font-size:18px;
+  font-weight:bold;
+  width: 500px;
+  padding:36px;
+  margin-left: 12px;
+  border: 1px black solid;
+  box-shadow: 20px 20px 25px rgba(0,0,0,0.2);
+  border-radius: 12px;
+
+}
+
+.info{
+  display: flex;
+  padding: 12px;
+  justify-content:center;
+
+}
